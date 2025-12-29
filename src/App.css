@@ -277,6 +277,14 @@ Profile section
 	border-radius: 6px;
 	margin: 0 auto; /* centers the image */
 }
+/*Contact*/
+
+.founder-info {
+	display: flex;
+	flex-direction: row;
+	gap: 0.5rem;
+	font-size: 0.875rem;
+}
 
 /*About weLocal*/
 .about {
@@ -322,4 +330,37 @@ Profile section
 .about-card p {
 	line-height: 1.5;
 	color: #555;
+}
+
+/* Default: assume mobile */
+.desktop-message {
+	display: none;
+	text-align: center;
+	padding: 2rem;
+	font-family: sans-serif;
+}
+
+@media (min-width: 768px) {
+	.mobile-only {
+		display: none;
+	}
+
+	.desktop-message {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		background-color: #f9f9f9;
+	}
+
+	.desktop-message h2 {
+		font-size: 1.75rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.desktop-message p {
+		color: #555;
+		max-width: 400px;
+	}
 }

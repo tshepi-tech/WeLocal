@@ -4,6 +4,7 @@ import brownie from "../src/assets/brownie.webp";
 import weddingcake from "../src/assets/weddingcake.jpg";
 import donuts from "../src/assets/donuts.jpeg";
 import goodcakes from "../src/assets/goodcakeslogo.png";
+import profilepicture from "../src/assets/bakerProfile.jpg";
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
@@ -27,40 +28,40 @@ function App() {
 		<>
 			<header className="header">
 				<div className="top-bar">
-					<button className="menu">
+					{/* <button className="menu">
 						<FontAwesomeIcon
 							icon="fa-solid fa-bars"
 							style={{ color: "#FF7700" }}
 						/>
 						<VisuallyHidden>Menu</VisuallyHidden>
-					</button>
+					</button> */}
 					<h1 className="logo">WeLocal</h1>
-					<Link to="/about" className="about">
+					<Link to="/about" className="about-nav">
 						About
 					</Link>
 				</div>
-				<form>
+				{/* 	<form>
 					<VisuallyHidden>
 						<label class="search-label" for="search">
 							Search services:
 						</label>
 					</VisuallyHidden>
 					<input id="search" type="search" placeholder="Search for services" />
-				</form>
+				</form> */}
 			</header>
 			<div className="fill-space"></div>
-			<main className="content">
+			<main className="content mobile-only">
 				<article className="profile">
 					<img className="logo-avatar" src={goodcakes} />
 					<div className="name">
 						GoodCakes
-						<a className="founder" href="#">
+						{/* <a className="founder" href="#">
 							About Founder
-						</a>
+						</a> */}
 					</div>
 					<div className="rating">
 						⭐ 4.8
-						<a href="#">(40 reviews)</a>
+						<a href="#">(5 reviews)</a>
 					</div>
 					<div className="info">
 						<span>📍 Pretoria</span>
@@ -80,6 +81,12 @@ function App() {
 						className={activeTab === "overview" ? "active" : ""}
 					>
 						Overview
+					</button>
+					<button
+						onClick={() => setActiveTab("contact")}
+						className={activeTab === "contact" ? "active" : ""}
+					>
+						Contact
 					</button>
 					<button
 						onClick={() => setActiveTab("services")}
@@ -102,8 +109,26 @@ function App() {
 							flavors to creative seasonal specials, every cake is designed to
 							look beautiful and taste unforgettable. Whether you’re celebrating
 							a birthday, wedding, or simply craving something sweet, GoodCakes
-							brings warmth, flavor, and joy to every occasion. //contact
+							brings warmth, flavor, and joy to every occasion.
 						</p>
+					</section>
+				)}
+				{activeTab === "contact" && (
+					<section>
+						<div className="founder-info">
+							<img className="logo-avatar" src={profilepicture} />
+							<div>
+								<p>
+									Jane started this bakery from her home kitchen with a love for
+									creating cakes that bring people together.
+									{/*  What began as a
+								passion for baking has grown into a small local business focused
+								on fresh ingredients, custom designs, and reliable service for
+								every occasion. */}
+								</p>
+								<a href="https://wa.me/1XXXXXXXXXX">Chat with me on WhatsApp</a>
+							</div>
+						</div>
 					</section>
 				)}
 				{activeTab === "services" && (
@@ -120,7 +145,7 @@ function App() {
 						</aside>
 						<aside className="service-item">
 							<img src={donuts} alt="colorful assortment of donuts" />
-							<p>Sticky delicious parties available</p> <p>⭐ 4 (3) </p>
+							<p>Sticky delicious pastries available</p> <p>⭐ 4 (3) </p>
 							<p>From ZAR 350 </p>
 						</aside>
 					</section>
@@ -156,6 +181,13 @@ function App() {
 					</section>
 				)}
 			</main>
+			<div class="desktop-message">
+				<h2>Mobile Only</h2>
+				<p>
+					WeLocal is currently optimised for mobile devices. Please visit this
+					page on your phone.
+				</p>
+			</div>
 		</>
 	);
 }

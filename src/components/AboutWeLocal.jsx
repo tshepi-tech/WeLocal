@@ -10,7 +10,7 @@ function AboutWeLocal() {
 					be found online without the cost and complexity of building a full
 					website.
 				</p>
-
+				{/* 
 				<div class="about-grid">
 					<div class="about-card">
 						<h2>What We Do</h2>
@@ -39,7 +39,7 @@ function AboutWeLocal() {
 							businesses.
 						</p>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	);
