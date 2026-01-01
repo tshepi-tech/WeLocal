@@ -1,10 +1,10 @@
 import "./App.css";
-import cupcakes from "../src/assets/chocolatecupcakes.jpg";
-import brownie from "../src/assets/brownie.webp";
-import weddingcake from "../src/assets/weddingcake.jpg";
-import donuts from "../src/assets/donuts.jpeg";
-import goodcakes from "../src/assets/goodcakeslogo.png";
-import profilepicture from "../src/assets/bakerProfile.jpg";
+import cupcakes from "./assets/chocolatecupcakes.jpg";
+import brownie from "./assets/brownie.webp";
+import weddingcake from "./assets/weddingcake.jpg";
+import donuts from "./assets/donuts.jpeg";
+import logo from "./assets/gl.jpeg";
+import profilepicture from "./assets/bakerProfile.jpg";
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
@@ -52,7 +52,7 @@ function App() {
 			<div className="fill-space"></div>
 			<main className="content mobile-only">
 				<article className="profile">
-					<img className="logo-avatar" src={goodcakes} />
+					<img className="logo-avatar" src={logo} />
 					<div className="name">
 						GoodCakes
 						{/* <a className="founder" href="#">
@@ -61,7 +61,7 @@ function App() {
 					</div>
 					<div className="rating">
 						⭐ 4.8
-						<a href="#">(5 reviews)</a>
+						<a href="#"> (5 reviews)</a>
 					</div>
 					<div className="info">
 						<span>📍 Pretoria</span>
@@ -181,7 +181,7 @@ function App() {
 					</section>
 				)}
 			</main>
-			<div class="desktop-message">
+			<div className="desktop-message">
 				<h2>Mobile Only</h2>
 				<p>
 					WeLocal is currently optimised for mobile devices. Please visit this
