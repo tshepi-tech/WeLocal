@@ -1,7 +1,6 @@
 import "./App.css";
 import cupcakes from "./assets/chocolatecupcakes.jpg";
 import logo from "./assets/gl.jpeg";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
@@ -22,35 +21,12 @@ function App() {
 
 	return (
 		<>
-			<header className="header">
-				<div className="top-bar">
-					{/* <button className="menu">
-						<FontAwesomeIcon
-							icon="fa-solid fa-bars"
-							style={{ color: "#FF7700" }}
-						/>
-						<VisuallyHidden>Menu</VisuallyHidden>
-					</button> */}
-					<h1 className="logo">WeLocal</h1>
-					<Link to="/about" className="about-nav">
-						About
-					</Link>
-				</div>
-				{/* 	<form>
-					<VisuallyHidden>
-						<label class="search-label" for="search">
-							Search services:
-						</label>
-					</VisuallyHidden>
-					<input id="search" type="search" placeholder="Search for services" />
-				</form> */}
-			</header>
 			<div className="fill-space"></div>
 			<main className="content mobile-only">
 				<article className="profile">
 					<img className="logo-avatar" src={logo} />
 					<div className="name">
-						GoodCakes
+						<h1>GoodCakes</h1>
 						{/* <a className="founder" href="#">
 							About Founder
 						</a> */}
