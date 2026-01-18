@@ -1,0 +1,9 @@
+[
+	{ "id": "0", "category": "Cakes", "icon": "" },
+	{ "id": "1", "category": "Catering", "icon": "" },
+	{ "id": "2", "category": "Photography", "icon": "" },
+	{ "id": "3", "category": "Makeup", "icon": "" },
+	{ "id": "4", "category": "Hair", "icon": "" },
+	{ "id": "5", "category": "Nails", "icon": "" },
+	{ "id": "6", "category": "Event Decoration", "icon": "" }
+]

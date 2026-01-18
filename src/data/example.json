@@ -1,0 +1,458 @@
+[
+	{
+		"id": "0",
+		"product": "Crispy vegan quinoa cakes",
+		"category": "Dishes",
+		"thumbnailSource": "dishQuinoaCake.webp",
+		"description": "A delicious, healthy flavorful vegan dinner that is gluten-free",
+		"imageSource": "main_dish_quinoa.jpeg",
+		"detail": "A unique purely plat based meal with no bread crumbs, egg or flour. Our versatile flavours are always in stock served with a side salad and sauce of your choice.",
+		"ingredients": [
+			{ "id": "0", "name": "Quinoa", "icon": "" },
+			{ "id": "1", "name": "Chickpeas", "icon": "" },
+			{ "id": "2", "name": "Cucumber", "icon": "" },
+			{ "id": "3", "name": "Cherry tomatoes", "icon": "" },
+			{ "id": "4", "name": "Italian dried herbs", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "388"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "17.6g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "560.1mg"
+			},
+			{
+				"id": "3",
+				"label": "Total Carbohydrates",
+				"value": "48.2g"
+			}
+		]
+	},
+	{
+		"id": "1",
+		"product": "Butternut risotto with leeks and spinach",
+		"category": "Dishes",
+		"thumbnailSource": "dishButternutrisotto.jpeg",
+		"description": "A one pot, no fuss,Gluten-free comforting meal",
+		"imageSource": "main_dish_risotto",
+		"detail": "A customer favourite creamy butternut, giving the risotto a lovely richness. The drizzle of the leek oil adds more flavour to the meal served with any side.",
+		"ingredients": [
+			{ "id": "0", "name": "Leeks", "icon": "" },
+			{ "id": "1", "name": "Arbori rice", "icon": "" },
+			{ "id": "2", "name": "Butternut", "icon": "" },
+			{ "id": "3", "name": "Spinach", "icon": "" },
+			{ "id": "4", "name": "Tomatoes", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "321"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "10.4g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "471.6mg"
+			},
+			{
+				"id": "3",
+				"label": "Total carbohydrates",
+				"value": "48.3g"
+			}
+		]
+	},
+	{
+		"id": "2",
+		"product": "Best vegan burger",
+		"category": "Dishes",
+		"thumbnailSource": "dishVeganburger.webp",
+		"description": "The Asian-style,grilled,vegan Portobello Mushroom burger full of flavour!",
+		"detail": "A flavorful umami bomb! Portobello mushrooms are brushed with a Miso-Sesame-Sriracha marinade, then grilled until perfectly juicy and tender.They are layered up with a Japanese-style cucumber ribbon salad, a carrot slaw (or Asian Slaw) and the best part,  as Asian style, avocado spread for the buns– seasoned with ginger & sesame, (aka Asian Guacamole).",
+		"imageSource": "main_dish_burger",
+		"ingredients": [
+			{ "id": "0", "name": "Portobello mushrooms", "icon": "" },
+			{ "id": "1", "name": "Avocado", "icon": "" },
+			{ "id": "2", "name": "Carrot", "icon": "" },
+			{ "id": "3", "name": "Cucumber", "icon": "" },
+			{ "id": "4", "name": "Wholewheat buns", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "415"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "21.2g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "701.6mg"
+			},
+			{
+				"id": "3",
+				"label": "Carbohydrates",
+				"value": "48.1g"
+			}
+		]
+	},
+	{
+		"id": "3",
+		"product": "Beet poké bowl",
+		"category": "Dishes",
+		"thumbnailSource": "dishBeetpoké.webp",
+		"description": "Delicious salad served with greens,rice or soba noodles",
+		"imageSource": "main_dish_poké",
+		"detail": "Beets are diced and steamed and tossed in the most delicious Poke Marinade- then tossed with scallions and cilantro. The Beet Poke Salad is served over buckwheat soba noodles.",
+		"ingredients": [
+			{ "id": "0", "name": "Beetroot", "icon": "" },
+			{ "id": "1", "name": "Dulse seaweed", "icon": "" },
+			{ "id": "2", "name": "Soba noodles", "icon": "" },
+			{ "id": "3", "name": "Sesame seeds", "icon": "" },
+			{ "id": "4", "name": "Sprouts", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "134"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "7.6g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "305mg"
+			},
+			{
+				"id": "3",
+				"label": "Carbohydrates",
+				"value": "15.1g"
+			}
+		]
+	},
+	{
+		"id": "4",
+		"product": "Almond butter & banana protein smoothie",
+		"category": "Drinks",
+		"thumbnailSource": "Almondbutter.jpeg",
+		"description": "With added nutty flavour from almond butter, enjoy this creamy smoothie",
+		"imageSource": "Almondbutter.jpeg",
+		"detail": "Our quick and delicious Almond butter & banana smoothie which is great for snack or breakfast. Using only the freshest bananas , the smoothie is a favourite for childrenand can be served as a milkshake as well with frozen bananas!",
+		"ingredients": [
+			{ "id": "0", "name": "Banana", "icon": "" },
+			{ "id": "1", "name": "Unsweetened almond milk", "icon": "" },
+			{ "id": "2", "name": "Almond butter", "icon": "" },
+			{ "id": "3", "name": "Grounded cinnamon", "icon": "" },
+			{ "id": "4", "name": "Unflavoured protein powder", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "402"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "21.8g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "375g"
+			},
+			{
+				"id": "3",
+				"label": "Carbohydrates",
+				"value": "37.4g"
+			}
+		]
+	},
+	{
+		"id": "5",
+		"product": "Berry bubbly vegan soda",
+		"category": "Drinks",
+		"thumbnailSource": "Berryjuice.jpeg",
+		"description": "a colourful 3 ingredient cocktail enjoyed all year-round.",
+		"imageSource": "Berryjuice.jpeg",
+		"detail": "This bright and bubbly sipper combines berries with vodka and seltzer to make a colorful 3-ingredient cocktail you can enjoy year-round, thanks to frozen berries. Amp up the flavor even more by requesting a flavored seltzer rather than plain!",
+		"ingredients": [
+			{ "id": "0", "name": "Frozen berries", "icon": "" },
+			{ "id": "1", "name": "Seltzer water", "icon": "" },
+			{ "id": "2", "name": "Vodka", "icon": "" },
+			{ "id": "3", "name": "Lemon", "icon": "" },
+			{ "id": "4", "name": "Pormegrante", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "133"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "0.4g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "1.1mg"
+			},
+			{
+				"id": "3",
+				"label": "Carbohydrates",
+				"value": "8.4g"
+			}
+		]
+	},
+	{
+		"id": "6",
+		"product": "Ginger beet juice",
+		"category": "Drinks",
+		"thumbnailSource": "Beetjuice.jpeg",
+		"description": "Packed with vegetables, ready for a healthy kick!",
+		"imageSource": "Beetjuice.jpeg",
+		"detail": "In this healthy ginger-beet juice recipe, we pack in vegetables by adding kale and a carrot, and sweeten with an orange and apple.",
+		"ingredients": [
+			{ "id": "0", "name": "Orange", "icon": "" },
+			{ "id": "1", "name": "Apple", "icon": "" },
+			{ "id": "2", "name": "Ginger", "icon": "" },
+			{ "id": "3", "name": "Beetroot", "icon": "" },
+			{ "id": "4", "name": "Carrot", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "415"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "21.2g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "701.6mg"
+			},
+			{
+				"id": "3",
+				"label": "Carbohydrates",
+				"value": "48.1g"
+			}
+		]
+	},
+	{
+		"id": "7",
+		"product": "Tumeric latte",
+		"category": "Drinks",
+		"thumbnailSource": "tumericlatte.jpeg",
+		"description": "Steamed almond milk ,with healthy tumeric and a touch of honey",
+		"imageSource": "tumericlatte.jpeg",
+		"detail": "Studies on turmeric's health benefits, particularly for reducing inflammation, are preliminary but promising. Try this vegan turmeric latte made from steamed almond milk and sweetened with a touch of maple syrup.",
+		"ingredients": [
+			{ "id": "0", "name": "Tumeric", "icon": "" },
+			{ "id": "1", "name": "Unsweetened almond milk", "icon": "" },
+			{ "id": "2", "name": "Ginger", "icon": "" },
+			{ "id": "3", "name": "Ground cinnamon", "icon": "" },
+			{ "id": "4", "name": "Honey", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "70"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "2.7g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "172.1mg"
+			},
+			{
+				"id": "3",
+				"label": "Carbohydrates",
+				"value": "10.9g"
+			}
+		]
+	},
+	{
+		"id": "8",
+		"product": "Chocolate bark",
+		"category": "Desserts",
+		"thumbnailSource": "dessertChocolatebark.webp",
+		"description": "This treat is salty and sweet with crisp texture",
+		"imageSource": "dessertChocolatebark.webp",
+		"detail": "This one is sweet and salty, with a confetti of colorful ingredients and absolutely irresistible.We used cranberries, pistachios, coconut and sea salt for the toppings.Enjoy a smooth, shiny sheen on the chocolate and just the right crisp crunch when you bite into it.",
+		"ingredients": [
+			{ "id": "0", "name": "Vegan dark chololate", "icon": "" },
+			{ "id": "1", "name": "Dried cranberries", "icon": "" },
+			{ "id": "2", "name": "Pistachios", "icon": "" },
+			{ "id": "3", "name": "Coconut salt", "icon": "" },
+			{ "id": "4", "name": "Sea salt", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "78"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "5.1g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "560mg"
+			},
+			{
+				"id": "3",
+				"label": "Sugars",
+				"value": "5.3g"
+			}
+		]
+	},
+	{
+		"id": "9",
+		"product": "Chocolate cake",
+		"category": "Desserts",
+		"thumbnailSource": "dessertChocolatecake.webp",
+		"description": "Cake with chocolate buttercream filling and shiny dark chocolate ganache",
+		"imageSource": "dessertChocolatecake.webp",
+		"detail": "Cake perfection! This incredible, decadent vegan chocolate cake features a rich, moist interior and a fluffy buttercream filling. The best part? It’s topped off with a shiny ganache topping!",
+		"ingredients": [
+			{ "id": "0", "name": "Vanilla extract", "icon": "" },
+			{ "id": "1", "name": "Cocoa powder", "icon": "" },
+			{ "id": "2", "name": "Almond butter", "icon": "" },
+			{ "id": "3", "name": "Coconut milk", "icon": "" },
+			{ "id": "4", "name": "Pumpkin puree", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "433"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "18.9g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "120mg"
+			},
+			{
+				"id": "3",
+				"label": "Sugars",
+				"value": "38g"
+			}
+		]
+	},
+	{
+		"id": "10",
+		"product": "Peanut butter cookies",
+		"category": "Desserts",
+		"thumbnailSource": "dessertPeanutbuttercookie.webp",
+		"description": "Soft and perfectly crumbly with just the right salty sweetness",
+		"imageSource": "dessertPeanutbuttercookie.webp",
+		"detail": "They’re soft but perfectly crumbly, and salty sweet. Decorated with the classic criss-cross pattern, they’ve got a sparkle of sugar. And a chocolate icing drizzle makes them look even more fun.",
+		"ingredients": [
+			{ "id": "0", "name": "Vanilla extract", "icon": "" },
+			{ "id": "1", "name": "Cane sugar", "icon": "" },
+			{ "id": "2", "name": "Peanut butter", "icon": "" },
+			{ "id": "3", "name": "Almond butter", "icon": "" },
+			{ "id": "4", "name": "Cocoa powder", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "149"
+			},
+			{
+				"id": "1",
+				"label": "Tota fat",
+				"value": "8.8g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "80mg"
+			},
+			{
+				"id": "3",
+				"label": "Sugars",
+				"value": "7.9g"
+			}
+		]
+	},
+	{
+		"id": "11",
+		"product": "Blueberry crips",
+		"category": "Desserts",
+		"thumbnailSource": "dessertBlueberrycrisp.webp",
+		"description": "Perfectly crunchy crumble topping with tangy blueberry filling",
+		"imageSource": "dessertBlueberrycrisp.webp",
+		"detail": "This easy blueberry crisp is everything: it’s got a healthy spin, and it tastes so good.The crumble is perfectly crisp: and gluten free! The topping here is crunchy and made of almonds and oats: making it a naturally gluten free dessert.",
+		"ingredients": [
+			{ "id": "0", "name": "Fresh blueberries", "icon": "" },
+			{ "id": "1", "name": "Lemon juice", "icon": "" },
+			{ "id": "2", "name": "Oats", "icon": "" },
+			{ "id": "3", "name": "Almond flour", "icon": "" },
+			{ "id": "4", "name": "Coconut sugar", "icon": "" }
+		],
+		"nutrition": [
+			{
+				"id": "0",
+				"label": "Calories",
+				"value": "257"
+			},
+			{
+				"id": "1",
+				"label": "Total fat",
+				"value": "8.8g"
+			},
+			{
+				"id": "2",
+				"label": "Sodium",
+				"value": "62mg"
+			},
+			{
+				"id": "3",
+				"label": "Sugars",
+				"value": "22.3g"
+			}
+		]
+	}
+]

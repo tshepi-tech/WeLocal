@@ -1,0 +1,70 @@
+[
+	{
+		"id": "goodcakes",
+		"name": "GoodCakes",
+		"slug": "goodcakes",
+		"logo": "assets/gl.jpeg",
+		"cover": "assets/chocolatecupcakes.jpg",
+		"rating": 4.8,
+		"reviews": 5,
+		"location": {
+			"city": "Pretoria",
+			"address": "Arcadia, Pretoria"
+		},
+		"categories": ["cakes", "cupcakes", "biscuits"],
+		"shortDescription": "Handmade celebration cakes and cupcakes.",
+		"about": "GoodCakes creates bespoke celebration cakes, cupcakes and biscuits using high-quality ingredients. We take orders for birthdays, weddings and corporate events.",
+		"founder": {
+			"name": "Thandi",
+			"bio": "Pastry chef with 10+ years experience creating custom cakes."
+		},
+		"overview": "GoodCakes is a small-batch bakery specializing in handcrafted cakes made with fresh, high-quality ingredients. From classic flavors to creative seasonal specials, every cake is designed to look beautiful and taste unforgettable. Whether you’re celebrating a birthday, wedding, or simply craving something sweet, GoodCakes brings warmth, flavor, and joy to every occasion.",
+		"contact": {
+			"phone": "+27-12-345-6789",
+			"email": "hello@goodcakes.co.za",
+			"website": "https://goodcakes.example"
+		},
+		"hours": {
+			"mon-fri": "08:00-18:00",
+			"sat": "09:00-15:00",
+			"sun": "Closed"
+		},
+		"services": [
+			{
+				"id": "0",
+				"name": "Classic Chocolate Cake",
+				"price": 350,
+				"imageSRC": "assets/chocolatecake.jpg"
+			},
+			{
+				"id": "1",
+				"name": "Vanilla Cupcakes (6)",
+				"price": 90,
+				"imageSRC": "assets/chocolatecake.jpg"
+			}
+		],
+		"reviewsContent": [
+			{
+				"id": "0",
+				"author": "Anonymous",
+				"rating": 5,
+				"serviceDate": "2024-05-10",
+				"content": " The cake was absolutely delicious! Moist, flavorful, and beautifully decorated. Everyone at the party asked where I got it from — I’ll definitely be ordering again."
+			},
+			{
+				"id": "1",
+				"author": "Sibongile M.",
+				"rating": 4,
+				"serviceDate": "2024-04-22",
+				"content": "I ordered cupcakes for my daughter's birthday, and they were a hit! Fresh, tasty, and exactly what we wanted."
+			},
+			{
+				"id": "2",
+				"author": "Lerato K.",
+				"rating": 4,
+				"serviceDate": "2024-04-22",
+				"content": "Loved the taste and presentation. The delivery was slightly delayed, but the cake was worth the wait. Great service overall!"
+			}
+		]
+	}
+]
