@@ -1,0 +1,26 @@
+.business-content {
+	padding: 0.75rem;
+	flex: 1;
+	overflow-y: auto;
+}
+
+.review-item {
+	background-color: #b5c7b8;
+	border-color: #b5c7b8;
+}
+
+.service-item p {
+	margin: 0 15px;
+}
+
+.founder-info p {
+	margin-bottom: 2rem;
+}
+
+.founder-info a {
+	color: #fbfffe;
+	text-decoration: none;
+	border: 1px solid #fbfffe;
+	padding: 0.25rem;
+	border-radius: 0.25rem;
+}

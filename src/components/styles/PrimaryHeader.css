@@ -1,0 +1,16 @@
+.top-bar {
+	.about-nav {
+		color: #fbfffe;
+		text-decoration: none;
+		border: 1px solid #fbfffe;
+		padding: 0.25rem;
+		border-radius: 0.25rem;
+	}
+}
+
+.logo {
+	font-weight: 700;
+	font-size: 22px;
+	color: #fbfffe;
+	text-decoration: none;
+}

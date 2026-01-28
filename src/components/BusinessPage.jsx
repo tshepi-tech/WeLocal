@@ -2,10 +2,11 @@ import profilepicture from "../assets/bakerProfile.jpg";
 import brownie from "../assets/brownie.webp";
 import weddingcake from "../assets/weddingcake.jpg";
 import donuts from "../assets/donuts.jpeg";
+import "./styles/BusinessPage.css";
 
 export default function BusinessPageContent({ activeTab }) {
 	return (
-		<main>
+		<main className="business-content">
 			{activeTab === "overview" && (
 				<section>
 					<p className="tab-content">
@@ -31,7 +32,7 @@ export default function BusinessPageContent({ activeTab }) {
 								on fresh ingredients, custom designs, and reliable service for
 								every occasion. */}
 							</p>
-							<a href="https://wa.me/1XXXXXXXXXX">Chat with me on WhatsApp</a>
+							<a href="https://wa.me/1XXXXXXXXXX"> WhatsApp</a>
 						</div>
 					</div>
 				</section>

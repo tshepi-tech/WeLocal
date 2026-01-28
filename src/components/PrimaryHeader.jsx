@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "./styles/PrimaryHeader.css";
 
 function PrimaryHeader() {
 	return (
@@ -11,7 +12,10 @@ function PrimaryHeader() {
                         />
                         <VisuallyHidden>Menu</VisuallyHidden>
                     </button> */}
-				<Link to="/" className="logo">
+				{/* <Link to="/" className="logo">
+					WeLocal
+				</Link> */}
+				<Link to="#" className="logo">
 					WeLocal
 				</Link>
 				<Link to="/about" className="about-nav">

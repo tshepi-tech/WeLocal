@@ -1,0 +1,18 @@
+.main-content {
+	background-color: #fbfffe;
+}
+
+
+	svg {
+		path {
+			fill: #fffffe;
+		}
+	}
+
+
+.rating {
+	display: flex;
+	.review-count {
+		color: #ff4000;
+	}
+}
